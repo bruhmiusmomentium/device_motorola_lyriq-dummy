@@ -1,0 +1,1355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carrier_config_list>
+    <carrier_config mcc="400">
+        <boolean name="moto_smart_5g_supported_bool" value="true" />
+        <boolean name="moto_smart_5g_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="401">
+        <boolean name="moto_smart_5g_supported_bool" value="true" />
+        <boolean name="moto_smart_5g_enabled_bool" value="true" />
+        <int name="maxImageHeight" value="1944" />
+        <int name="maxImageWidth" value="2592" />
+        <int name="recipientLimit" value="20" />
+        <int name="smsToMmsTextThreshold" value="6" />
+    </carrier_config>
+    <carrier_config mcc="404">
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <int name="maxImageHeight" value="1944" />
+        <int name="maxImageWidth" value="2592" />
+        <int name="moto_back_to_auto_network_selection_timer" value="300000" />
+        <int name="recipientLimit" value="20" />
+        <int name="smsToMmsTextThreshold" value="6" />
+    </carrier_config>
+    <carrier_config mcc="405">
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <int name="maxImageHeight" value="1944" />
+        <int name="maxImageWidth" value="2592" />
+        <int name="moto_back_to_auto_network_selection_timer" value="300000" />
+        <int name="recipientLimit" value="20" />
+        <int name="smsToMmsTextThreshold" value="6" />
+    </carrier_config>
+    <carrier_config mcc="418">
+        <boolean name="moto_smart_5g_supported_bool" value="true" />
+        <boolean name="moto_smart_5g_enabled_bool" value="true" />
+        <int name="recipientLimit" value="20" />
+        <int name="smsToMmsTextThreshold" value="6" />
+    </carrier_config>
+    <carrier_config mcc="419" mnc="09">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="420">
+        <int name="maxImageHeight" value="1944" />
+        <int name="maxImageWidth" value="2592" />
+        <int name="recipientLimit" value="20" />
+        <int name="smsToMmsTextThreshold" value="6" />
+    </carrier_config>
+    <carrier_config mcc="420" mnc="06" name="Lebara">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="420" mnc="09" name="Zain Saudi Salam">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <int name="maxImageHeight" value="480" />
+        <int name="maxImageWidth" value="640" />
+        <boolean name="enabledMMS" value="false" />
+    </carrier_config>
+    <carrier_config mcc="420" mnc="10" name="Redbull Mobile SA">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <int-array name="carrier_nr_availabilities_int_array" num="2">
+            <item value="1" />
+            <item value="2" />
+        </int-array>
+    </carrier_config>
+    <carrier_config mcc="424">
+        <int name="maxImageHeight" value="1944" />
+        <int name="maxImageWidth" value="2592" />
+        <int name="recipientLimit" value="20" />
+        <int name="smsToMmsTextThreshold" value="6" />
+    </carrier_config>
+    <carrier_config mcc="425">
+        <int name="maxImageHeight" value="1944" />
+        <int name="maxImageWidth" value="2592" />
+        <int name="recipientLimit" value="20" />
+        <int name="smsToMmsTextThreshold" value="6" />
+    </carrier_config>
+    <carrier_config mcc="426">
+        <boolean name="moto_smart_5g_supported_bool" value="true" />
+        <boolean name="moto_smart_5g_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="440">
+        <int name="maxImageHeight" value="1944" />
+        <int name="maxImageWidth" value="2592" />
+        <int name="recipientLimit" value="20" />
+        <int name="smsToMmsTextThreshold" value="6" />
+        <boolean name="allow_dedupe_apn_bool" value="false" />
+        <string-array name="moto_extra_types_to_default_apn_string_array" num="1">
+            <item value="ia" />
+        </string-array>
+        <string-array name="read_only_apn_types_string_array" num="1">
+            <item value="ims" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="440" mnc="20">
+        <boolean name="hide_lte_plus_data_icon_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="440" mnc="50">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="440" mnc="51">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="support_ims_conference_event_package_bool" value="false" />
+    </carrier_config>
+    <carrier_config mcc="441">
+        <int name="recipientLimit" value="20" />
+        <int name="smsToMmsTextThreshold" value="6" />
+    </carrier_config>
+    <carrier_config mcc="441" mnc="20">
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <carrier_config mcc="450">
+        <int name="recipientLimit" value="20" />
+        <int name="smsToMmsTextThreshold" value="6" />
+    </carrier_config>
+    <carrier_config mcc="450" mnc="00">
+        <boolean name="carrier_volte_available_bool" value="false" />
+        <int name="maxSubjectLength" value="80" />
+    </carrier_config>
+    <carrier_config mcc="450" mnc="02">
+        <boolean name="enableSMSDeliveryReports" value="true" />
+        <int name="maxSubjectLength" value="80" />
+        <string name="carrier_instant_lettering_encoding_string" />
+        <string name="carrier_instant_lettering_invalid_chars_string" />
+    </carrier_config>
+    <carrier_config mcc="450" mnc="06">
+        <boolean name="hide_preferred_network_type_bool" value="false" />
+        <boolean name="allow_emergency_video_calls_bool" value="false" />
+        <boolean name="enableSMSDeliveryReports" value="true" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <int name="maxSubjectLength" value="80" />
+        <int name="smsToMmsTextLengthThreshold" value="-1" />
+        <string name="carrier_instant_lettering_encoding_string" />
+        <string name="carrier_instant_lettering_invalid_chars_string" />
+    </carrier_config>
+    <carrier_config mcc="450" mnc="08">
+        <boolean name="enableSMSDeliveryReports" value="true" />
+        <int name="maxSubjectLength" value="80" />
+        <string name="carrier_instant_lettering_encoding_string" />
+        <string name="carrier_instant_lettering_invalid_chars_string" />
+    </carrier_config>
+    <carrier_config mcc="454">
+        <int name="maxImageHeight" value="1944" />
+        <int name="maxImageWidth" value="2592" />
+        <int name="recipientLimit" value="20" />
+        <int name="smsToMmsTextThreshold" value="6" />
+    </carrier_config>
+    <carrier_config mcc="455">
+        <int name="maxImageHeight" value="1944" />
+        <int name="maxImageWidth" value="2592" />
+        <int name="recipientLimit" value="20" />
+        <int name="smsToMmsTextThreshold" value="6" />
+    </carrier_config>
+    <carrier_config mcc="455" mnc="02" name="Macao Telecom">
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="carrier_ims_setting_reset_after_sim_swap_bool" value="true" />
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+        <boolean name="moto_convert_plus_for_ims_call_bool" value="false" />
+        <boolean name="vilte_data_is_metered_bool" value="false" />
+        <int name="volte_replacement_rat_int" value="6" />
+    </carrier_config>
+    <carrier_config mcc="455" mnc="07" name="Macao Telecom">
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="carrier_ims_setting_reset_after_sim_swap_bool" value="true" />
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+        <boolean name="moto_convert_plus_for_ims_call_bool" value="false" />
+        <boolean name="vilte_data_is_metered_bool" value="false" />
+        <int name="volte_replacement_rat_int" value="6" />
+    </carrier_config>
+    <carrier_config mcc="460">
+        <boolean name="additional_settings_caller_id_visibility_bool" value="false" />
+        <boolean name="ascii_7_bit_support_for_long_message_bool" value="true" />
+        <boolean name="moto_auto_resume_holding_call" value="false" />
+        <boolean name="prefer_2g_bool" value="false" />
+        <boolean name="support_pause_ims_video_calls_bool" value="false" />
+        <boolean name="moto_wifi_cellular_switch_enabled_bool" value="true" />
+        <boolean name="moto_smart_5g_supported_bool" value="true" />
+        <boolean name="moto_smart_5g_enabled_bool" value="true" />
+        <boolean name="allow_hold_video_call_bool" value="false" />
+        <boolean name="allow_concurrent_call_during_video_call" value="false" />
+        <int name="maxImageHeight" value="1944" />
+        <int name="maxImageWidth" value="2592" />
+        <int name="recipientLimit" value="20" />
+        <int name="smsToMmsTextThreshold" value="6" />
+        <long name="carrier_data_call_apn_retry_after_disconnect_long" value="100" />
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="13" name="China Mobile">
+        <boolean name="allow_add_call_during_video_call" value="false" />
+        <boolean name="allow_holding_video_call" value="false" />
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_video_crs_supported_bool" value="true" />
+        <boolean name="config_carrier_volte_tty_supported" value="false" />
+        <boolean name="config_enable_video_crbt" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+        <boolean name="imsServiceAllowTurnOff" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
+        <boolean name="vonr_setting_visibility_bool" value="false" />
+        <boolean name="moto_carrier_default_vonr_bool" value="true" />
+        <boolean name="moto_should_restore_unknown_participant_bool" value="true" />
+        <boolean name="moto_use_restore_number_for_conference" value="true" />
+        <boolean name="vilte_data_is_metered_bool" value="false" />
+        <int-array name="carrier_nr_availabilities_int_array" num="2">
+            <item value="1" />
+            <item value="2" />
+        </int-array>
+        <string name="5g_icon_configuration_string">connected_mmwave:5G_Plus,connected:5G,not_restricted_rrc_idle:5G</string>
+        <string name="5g_icon_display_grace_period_string">connected_mmwave,legacy,30;connected,legacy,30;connected_mmwave,not_restricted_rrc_con,30;connected,not_restricted_rrc_con,30;not_restricted_rrc_idle,not_restricted_rrc_con,30</string>
+        <int-array name="5g_nr_ssrsrp_thresholds_int_array" num="4">
+            <item value="-128" />
+            <item value="-121" />
+            <item value="-114" />
+            <item value="-107" />
+        </int-array>
+        <int-array name="lte_rsrp_thresholds_int_array" num="4">
+            <item value="-128" />
+            <item value="-121" />
+            <item value="-114" />
+            <item value="-107" />
+        </int-array>
+        <int-array name="moto_tdscdma_rscp_thresholds_int_array" num="4">
+            <item value="-111" />
+            <item value="-105" />
+            <item value="-98" />
+            <item value="-91" />
+        </int-array>
+        <int-array name="gsm_rssi_thresholds_int_array" num="4">
+            <item value="-111" />
+            <item value="-105" />
+            <item value="-102" />
+            <item value="-95" />
+        </int-array>
+        <string-array name="non_roaming_operator_string_array" num="2">
+            <item value="46050" />
+            <item value="46031" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="15" name="China Broadcasting Network">
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="support_tdscdma_bool" value="true" />
+        <boolean name="allow_hold_video_call_bool" value="false" />
+        <boolean name="support_video_conference_call_bool" value="false" />
+        <boolean name="allow_add_call_during_video_call" value="false" />
+        <boolean name="allow_holding_video_call" value="false" />
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_video_crs_supported_bool" value="true" />
+        <boolean name="config_carrier_volte_tty_supported" value="false" />
+        <boolean name="config_enable_video_crbt" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="hide_enable_2g_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+        <boolean name="imsServiceAllowTurnOff" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
+        <boolean name="vonr_setting_visibility_bool" value="false" />
+        <boolean name="moto_carrier_default_vonr_bool" value="true" />
+        <boolean name="moto_should_restore_unknown_participant_bool" value="true" />
+        <boolean name="moto_use_restore_number_for_conference" value="true" />
+        <boolean name="vilte_data_is_metered_bool" value="false" />
+        <boolean name="enabledMMS" value="false" />
+        <boolean name="support_ims_conference_event_package_bool" value="false" />
+        <int-array name="carrier_nr_availabilities_int_array" num="2">
+            <item value="1" />
+            <item value="2" />
+        </int-array>
+        <string name="5g_icon_configuration_string">connected_mmwave:5G_Plus,connected:5G,not_restricted_rrc_idle:5G</string>
+        <string name="5g_icon_display_grace_period_string">connected_mmwave,legacy,30;connected,legacy,30;connected_mmwave,not_restricted_rrc_con,30;connected,not_restricted_rrc_con,30;not_restricted_rrc_idle,not_restricted_rrc_con,30</string>
+        <int-array name="5g_nr_ssrsrp_thresholds_int_array" num="4">
+            <item value="-128" />
+            <item value="-121" />
+            <item value="-114" />
+            <item value="-107" />
+        </int-array>
+        <int-array name="lte_rsrp_thresholds_int_array" num="4">
+            <item value="-128" />
+            <item value="-121" />
+            <item value="-114" />
+            <item value="-107" />
+        </int-array>
+        <int-array name="moto_tdscdma_rscp_thresholds_int_array" num="4">
+            <item value="-111" />
+            <item value="-105" />
+            <item value="-98" />
+            <item value="-91" />
+        </int-array>
+        <int-array name="gsm_rssi_thresholds_int_array" num="4">
+            <item value="-111" />
+            <item value="-105" />
+            <item value="-102" />
+            <item value="-95" />
+        </int-array>
+        <string-array name="non_roaming_operator_string_array" num="2">
+            <item value="46051" />
+            <item value="46032" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="466">
+        <boolean name="moto_disable_2g_default_bool" value="true" />
+        <int name="maxImageHeight" value="1944" />
+        <int name="maxImageWidth" value="2592" />
+        <int name="recipientLimit" value="20" />
+        <int name="smsToMmsTextThreshold" value="6" />
+        <string name="5g_icon_configuration_string">connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G</string>
+        <string name="5g_icon_display_grace_period_string">connected_mmwave,legacy,31;connected,legacy,31;connected_mmwave,not_restricted_rrc_con,31;connected,not_restricted_rrc_con,31;not_restricted_rrc_idle,not_restricted_rrc_con,15</string>
+        <string-array name="carrier_additional_cbs_channels_strings" num="2">
+            <item value="911:emergency=true,type=other" />
+            <item value="919:emergency=true,type=other" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="502">
+        <int name="maxImageHeight" value="1944" />
+        <int name="maxImageWidth" value="2592" />
+        <int name="recipientLimit" value="20" />
+        <int name="smsToMmsTextThreshold" value="6" />
+    </carrier_config>
+    <carrier_config mcc="505">
+        <boolean name="prefer_2g_bool" value="false" />
+        <int name="maxImageHeight" value="1944" />
+        <int name="maxImageWidth" value="2592" />
+        <int name="recipientLimit" value="20" />
+        <int name="smsToMmsTextThreshold" value="6" />
+    </carrier_config>
+    <carrier_config mcc="505" mnc="02">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <int name="carrier_default_wfc_ims_mode_int" value="1" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="510">
+        <int name="maxImageHeight" value="1944" />
+        <int name="maxImageWidth" value="2592" />
+        <int name="recipientLimit" value="20" />
+        <int name="smsToMmsTextThreshold" value="6" />
+    </carrier_config>
+    <carrier_config mcc="515">
+        <int name="maxImageHeight" value="1944" />
+        <int name="maxImageWidth" value="2592" />
+        <int name="recipientLimit" value="20" />
+        <int name="smsToMmsTextThreshold" value="6" />
+    </carrier_config>
+    <carrier_config mcc="515" mnc="66" name="Dito">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <int-array name="carrier_nr_availabilities_int_array" num="2">
+            <item value="1" />
+            <item value="2" />
+        </int-array>
+    </carrier_config>
+    <carrier_config mcc="520">
+        <int name="maxImageHeight" value="1944" />
+        <int name="maxImageWidth" value="2592" />
+        <int name="recipientLimit" value="20" />
+        <int name="smsToMmsTextThreshold" value="6" />
+    </carrier_config>
+    <carrier_config mcc="525">
+        <int name="maxImageHeight" value="1944" />
+        <int name="maxImageWidth" value="2592" />
+        <int name="recipientLimit" value="20" />
+        <int name="smsToMmsTextThreshold" value="6" />
+    </carrier_config>
+    <carrier_config mcc="525" mnc="01">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="15" name="Vodafone">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="moto_disable_5GSA_during_wfc_call" value="true" />
+        <int name="carrier_default_wfc_ims_mode_int" value="1" />
+        <int name="moto_back_to_auto_network_selection_timer" value="60000" />
+        <int-array name="carrier_nr_availabilities_int_array" num="2">
+            <item value="1" />
+            <item value="2" />
+        </int-array>
+        <string-array name="non_roaming_operator_string_array" num="1">
+            <item value="50502" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="602">
+        <boolean name="moto_smart_5g_supported_bool" value="true" />
+        <boolean name="moto_smart_5g_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="605">
+        <boolean name="moto_smart_5g_supported_bool" value="true" />
+        <boolean name="moto_smart_5g_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="31" name="Singtel">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <int name="wifi.carrier_profiles_version_int" value="1" />
+        <string-array name="wifi.network_profiles_string_array" num="1">
+            <item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;WifiNetwork>&lt;SSID>Singtel WIFI&lt;/SSID>&lt;Credential>&lt;SIM>&lt;EAPType>18&lt;/EAPType>&lt;/SIM>&lt;/Credential>&lt;/WifiNetwork>" />
+        </string-array>
+    </carrier_config>
+    <carrier_config cid="451" name="Etisalat">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_wfc_supports_ims_preferred_bool" value="true" />
+        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="enable_update_address_for_mo" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <int name="carrier_default_wfc_ims_roaming_mode_int" value="10" />
+        <int name="carrier_default_wfc_ims_mode_int" value="10" />
+        <int-array name="carrier_nr_availabilities_int_array" num="2">
+            <item value="1" />
+            <item value="2" />
+        </int-array>
+        <string name="5g_icon_configuration_string">connected_mmwave:5G_Plus,connected:5G</string>
+    </carrier_config>
+    <carrier_config cid="759" name="3G Radio System/HKCSL3G">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <int-array name="carrier_nr_availabilities_int_array" num="2">
+            <item value="1" />
+            <item value="2" />
+        </int-array>
+    </carrier_config>
+    <carrier_config cid="760" name="3HK">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="false" />
+    </carrier_config>
+    <carrier_config cid="761" name="SmarTone HK">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="false" />
+        <boolean name="moto_should_restore_unknown_participant_bool" value="true" />
+        <boolean name="moto_use_restore_number_for_conference" value="true" />
+        <int-array name="carrier_nr_availabilities_int_array" num="2">
+            <item value="1" />
+            <item value="2" />
+        </int-array>
+    </carrier_config>
+    <carrier_config cid="765" name="GSM1800New World PCS Ltd.">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <int-array name="carrier_nr_availabilities_int_array" num="2">
+            <item value="1" />
+            <item value="2" />
+        </int-array>
+    </carrier_config>
+    <carrier_config cid="767" name="中國移動香港 China Mobile HK">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="false" />
+    </carrier_config>
+    <carrier_config cid="769" name="PCCW">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="770" name="GSM7800/Hong Kong CSL Ltd.">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <int-array name="carrier_nr_availabilities_int_array" num="2">
+            <item value="1" />
+            <item value="2" />
+        </int-array>
+    </carrier_config>
+    <carrier_config cid="796" name="Partner">
+        <string name="carrier_name_string">Partner</string>
+    </carrier_config>
+    <carrier_config cid="802" name="Vi">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true" />
+        <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+        <boolean name="vilte_data_is_metered_bool" value="false" />
+    </carrier_config>
+    <carrier_config cid="849" name="Orange Jordan">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+        <boolean name="vilte_data_is_metered_bool" value="false" />
+    </carrier_config>
+    <carrier_config cid="850" name="NTT DOCOMO">
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="use_call_forwarding_ussd_bool" value="true" />
+        <boolean name="use_call_waiting_ussd_bool" value="true" />
+        <boolean name="vilte_data_is_metered_bool" value="false" />
+    </carrier_config>
+    <carrier_config cid="970" name="Omantel">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="971" name="Ooredoo">
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <carrier_config cid="1096" name="CAT CDMA">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="moto_should_restore_unknown_participant_bool" value="true" />
+        <boolean name="moto_use_restore_number_for_conference" value="true" />
+    </carrier_config>
+    <carrier_config cid="1097" name="AIS GSM">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <int name="carrier_default_wfc_ims_mode_int" value="1" />
+        <int name="wifi.carrier_profiles_version_int" value="1" />
+        <string-array name="wifi.network_profiles_string_array" num="1">
+            <item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;WifiNetwork>&lt;SSID>  AIS SMART Login&lt;/SSID>&lt;Credential>&lt;SIM>&lt;EAPType>18&lt;/EAPType>&lt;/SIM>&lt;/Credential>&lt;/WifiNetwork>" />
+        </string-array>
+    </carrier_config>
+    <carrier_config cid="1098" name="AIS">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <int name="carrier_default_wfc_ims_mode_int" value="1" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <int name="wifi.carrier_profiles_version_int" value="1" />
+        <int-array name="carrier_nr_availabilities_int_array" num="2">
+            <item value="1" />
+            <item value="2" />
+        </int-array>
+        <string-array name="wifi.network_profiles_string_array" num="1">
+            <item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;WifiNetwork>&lt;SSID>  AIS SMART Login&lt;/SSID>&lt;Credential>&lt;SIM>&lt;EAPType>18&lt;/EAPType>&lt;/SIM>&lt;/Credential>&lt;/WifiNetwork>" />
+        </string-array>
+    </carrier_config>
+    <carrier_config cid="1345" name="Telstra">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true" />
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <int name="carrier_default_wfc_ims_mode_int" value="1" />
+        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="hide_lte_plus_data_icon_bool" value="true" />
+        <boolean name="support_video_conference_call_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="1348" name="Hutchison 3G Australia Pty. Ltd.">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="moto_disable_5GSA_during_wfc_call" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <int name="carrier_default_wfc_ims_mode_int" value="1" />
+        <int name="moto_back_to_auto_network_selection_timer" value="60000" />
+        <string-array name="non_roaming_operator_string_array" num="1">
+            <item value="50502" />
+        </string-array>
+    </carrier_config>
+    <carrier_config cid="1372" name="Batelco">
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <carrier_config cid="1435" name="China Mobile">
+        <boolean name="allow_add_call_during_video_call" value="false" />
+        <boolean name="allow_holding_video_call" value="false" />
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_video_crs_supported_bool" value="true" />
+        <boolean name="config_carrier_volte_tty_supported" value="false" />
+        <boolean name="config_enable_video_crbt" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+        <boolean name="imsServiceAllowTurnOff" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
+        <boolean name="vonr_setting_visibility_bool" value="false" />
+        <boolean name="moto_carrier_default_vonr_bool" value="true" />
+        <boolean name="moto_should_restore_unknown_participant_bool" value="true" />
+        <boolean name="moto_use_restore_number_for_conference" value="true" />
+        <boolean name="vilte_data_is_metered_bool" value="false" />
+        <int-array name="carrier_nr_availabilities_int_array" num="2">
+            <item value="1" />
+            <item value="2" />
+        </int-array>
+        <string name="5g_icon_configuration_string">connected_mmwave:5G_Plus,connected:5G,not_restricted_rrc_idle:5G</string>
+        <string name="5g_icon_display_grace_period_string">connected_mmwave,legacy,30;connected,legacy,30;connected_mmwave,not_restricted_rrc_con,30;connected,not_restricted_rrc_con,30;not_restricted_rrc_idle,not_restricted_rrc_con,30</string>
+        <int-array name="5g_nr_ssrsrp_thresholds_int_array" num="4">
+            <item value="-128" />
+            <item value="-121" />
+            <item value="-114" />
+            <item value="-107" />
+        </int-array>
+        <int-array name="lte_rsrp_thresholds_int_array" num="4">
+            <item value="-128" />
+            <item value="-121" />
+            <item value="-114" />
+            <item value="-107" />
+        </int-array>
+        <int-array name="moto_tdscdma_rscp_thresholds_int_array" num="4">
+            <item value="-111" />
+            <item value="-105" />
+            <item value="-98" />
+            <item value="-91" />
+        </int-array>
+        <int-array name="gsm_rssi_thresholds_int_array" num="4">
+            <item value="-111" />
+            <item value="-105" />
+            <item value="-102" />
+            <item value="-95" />
+        </int-array>
+        <string-array name="non_roaming_operator_string_array" num="2">
+            <item value="46050" />
+            <item value="46031" />
+        </string-array>
+    </carrier_config>
+    <carrier_config cid="1436" name="China Unicom">
+        <boolean name="allow_add_call_during_video_call" value="false" />
+        <boolean name="allow_hold_video_call_bool" value="false" />
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_video_crs_supported_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="config_enable_video_crbt" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+        <boolean name="moto_carrier_default_vonr_bool" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
+        <boolean name="vonr_setting_visibility_bool" value="true" />
+        <boolean name="vilte_data_is_metered_bool" value="false" />
+        <int-array name="carrier_nr_availabilities_int_array" num="2">
+            <item value="1" />
+            <item value="2" />
+        </int-array>
+        <string name="carrier_name_string">UNICOM</string>
+        <string name="5g_icon_configuration_string">connected_mmwave:5G_Plus,connected:5G,not_restricted_rrc_idle:5G</string>
+        <string name="5g_icon_display_grace_period_string">connected_mmwave,legacy,30;connected,legacy,30;connected_mmwave,not_restricted_rrc_con,30;connected,not_restricted_rrc_con,30;not_restricted_rrc_idle,not_restricted_rrc_con,30</string>
+        <int name="lte_plus_threshold_bandwidth_khz_int" value="0" />
+        <int-array name="5g_nr_ssrsrp_thresholds_int_array" num="4">
+            <item value="-128" />
+            <item value="-121" />
+            <item value="-114" />
+            <item value="-107" />
+        </int-array>
+        <int-array name="lte_rsrp_thresholds_int_array" num="4">
+            <item value="-128" />
+            <item value="-121" />
+            <item value="-114" />
+            <item value="-107" />
+        </int-array>
+        <int-array name="moto_wcdma_rssi_thresholds_int_array" num="4">
+            <item value="-112" />
+            <item value="-108" />
+            <item value="-102" />
+            <item value="-96" />
+        </int-array>
+        <int-array name="gsm_rssi_thresholds_int_array" num="4">
+            <item value="-111" />
+            <item value="-105" />
+            <item value="-102" />
+            <item value="-95" />
+        </int-array>
+        <string-array name="non_roaming_operator_string_array" num="2">
+            <item value="46022" />
+            <item value="46061" />
+        </string-array>
+    </carrier_config>
+    <carrier_config cid="1526" name="1O1O / csl / Club Sim">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <int-array name="carrier_nr_availabilities_int_array" num="2">
+            <item value="1" />
+            <item value="2" />
+        </int-array>
+    </carrier_config>
+    <carrier_config cid="1549" name="Bharat Sanchar Nigam Ltd. (BSNL)">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="enable_update_address_for_mo" value="false" />
+        <boolean name="hide_ims_apn_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="1581" name="au">
+        <string-array name="carrier_additional_cbs_channels_strings" num="1">
+            <item value="0xA808:emergency=true,type=other" />
+        </string-array>
+    </carrier_config>
+    <carrier_config cid="1585" name="Zain">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="1586" name="Ooredoo">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="1589" name="TSC Kazak Telecom">
+        <boolean name="carrier_use_ims_first_for_emergency_bool" value="false" />
+    </carrier_config>
+    <carrier_config cid="1614" name="CTM GSM">
+        <int name="moto_dss_int" value="0" />
+    </carrier_config>
+    <carrier_config cid="1628" name="Maxis/Hotlink">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true" />
+        <int name="moto_dss_int" value="0" />
+    </carrier_config>
+    <carrier_config cid="1630" name="Digi">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="1631" name="TimeCel">
+        <int name="moto_dss_int" value="0" />
+    </carrier_config>
+    <carrier_config cid="1632" name="U Mobile">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="moto_should_restore_unknown_participant_bool" value="true" />
+        <boolean name="moto_use_restore_number_for_conference" value="true" />
+    </carrier_config>
+    <carrier_config cid="1633" name="Celcom">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true" />
+        <int name="moto_dss_int" value="0" />
+    </carrier_config>
+    <carrier_config cid="1653" name="Globe Telecom">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="1654" name="Smart Communications">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <int name="moto_dss_int" value="0" />
+    </carrier_config>
+    <carrier_config cid="1675" name="Ooredoo">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="1683" name="STC">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="enable_update_address_for_mo" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true" />
+        <int-array name="carrier_nr_availabilities_int_array" num="2">
+            <item value="1" />
+            <item value="2" />
+        </int-array>
+    </carrier_config>
+    <carrier_config cid="1684" name="Mobily">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="1706" name="M1">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="1707" name="StarHub">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="1881" name="遠傳電信 Far EasTone Telecom">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <int name="carrier_default_wfc_ims_mode_int" value="1" />
+    </carrier_config>
+    <carrier_config cid="1882" name="亞太電信 Asia Pacific Telecom">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="call_forwarding_when_unreachable_supported_bool" value="false" />
+        <int name="wfc_flight_mode_spn_format_idx_int" value="1" />
+        <int name="wfc_spn_format_idx_int" value="1" />
+    </carrier_config>
+    <carrier_config cid="1884" name="中華電信_Chunghwa Telecom">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <int name="carrier_default_wfc_ims_mode_int" value="1" />
+    </carrier_config>
+    <carrier_config cid="1886" name="台灣之星 T Star">
+        <boolean name="hide_ims_apn_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="1888" name="台灣大哥大 Taiwan Mobile Telecom">
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <boolean name="carrier_supports_ss_over_ut_bool" value="false" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <int-array name="carrier_nr_availabilities_int_array" num="2">
+            <item value="1" />
+            <item value="2" />
+        </int-array>
+    </carrier_config>
+    <carrier_config cid="1890" name="KT">
+        <boolean name="additional_settings_caller_id_visibility_bool" value="false" />
+        <boolean name="additional_settings_call_waiting_visibility_bool" value="false" />
+        <boolean name="call_forwarding_visibility_bool" value="false" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="1891" name="SK Telecom">
+        <boolean name="call_forwarding_visibility_bool" value="false" />
+        <boolean name="additional_settings_call_waiting_visibility_bool" value="false" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="enableSMSDeliveryReports" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <int name="carrier_instant_lettering_length_limit_int" value="64" />
+        <int name="maxSubjectLength" value="80" />
+        <string name="carrier_instant_lettering_encoding_string" />
+        <string name="carrier_instant_lettering_escaped_chars_string" />
+        <string name="carrier_instant_lettering_invalid_chars_string" />
+    </carrier_config>
+    <carrier_config cid="1892" name="LG U+">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="1894" name="SoftBank" unique_rule_id="SoftBank">
+        <boolean name="carrier_tty_withoutcheck_device_attach_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="display_hd_plus_icon_bool" value="true" />
+        <boolean name="enableMultipartSMS" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="moto_lte_show_one_bar_atleast_bool" value="false" />
+        <boolean name="moto_nr_show_one_bar_atleast_bool" value="false" />
+        <boolean name="vilte_data_is_metered_bool" value="false" />
+        <string name="default_vm_number_roaming_string">+819066514170</string>
+        <string name="default_vm_number_roaming_and_ims_unregistered_string">+819066514170</string>
+        <string name="5g_icon_configuration_string">connected_mmwave:5G_Plus,connected:5G,not_restricted_rrc_idle:5G</string>
+        <string name="5g_icon_display_grace_period_string" value="connected_mmwave,legacy,31;connected,legacy,31;             connected_mmwave,not_restricted_rrc_con,31;connected,not_restricted_rrc_con,31;             not_restricted_rrc_idle,not_restricted_rrc_con,15" />
+        <string-array name="carrier_additional_cbs_channels_strings" num="4">
+            <item value="0xA800:emergency=true,type=earthquake" />
+            <item value="0xAFEE:emergency=true,type=tsunami" />
+            <item value="0xAC00-0xAFED:emergency=true,type=other" />
+            <item value="0xA802,0xA804:emergency=true,type=etws_default" />
+        </string-array>
+        <int name="moto_signal_strength_hysteresis_db_int" value="0" />
+        <int name="parameters_used_for_lte_signal_bar_int" value="5" />
+        <int name="parameters_use_for_5g_nr_signal_bar_int" value="5" />
+        <int name="smsToMmsTextThreshold" value="10" />
+        <int-array name="lte_rsrp_thresholds_int_array" num="4">
+            <item value="-127" />
+            <item value="-123" />
+            <item value="-121" />
+            <item value="-117" />
+        </int-array>
+        <int-array name="lte_rssnr_thresholds_int_array" num="4">
+            <item value="-19" />
+            <item value="-3" />
+            <item value="-1" />
+            <item value="1" />
+        </int-array>
+        <int-array name="5g_nr_ssrsrp_thresholds_int_array" num="4">
+            <item value="-127" />
+            <item value="-123" />
+            <item value="-121" />
+            <item value="-117" />
+        </int-array>
+        <int-array name="5g_nr_sssinr_thresholds_int_array" num="4">
+            <item value="-19" />
+            <item value="-3" />
+            <item value="-1" />
+            <item value="1" />
+        </int-array>
+        <string name="gps.es_extension_sec">300</string>
+        <string name="gps.lpp_profile">2</string>
+        <string name="gps.supl_host">NONE</string>
+        <string name="gps.supl_mode">0</string>
+        <string name="gps.supl_ver">0x20000</string>
+        <string name="gps.use_emergency_pdn_for_emergency_supl">0</string>
+        <string name="moto_custom_config_string"> &lt;moto_config channel_id="softbank">
+                &lt;boolean name="additional_settings_call_waiting_visibility_bool" value="false" />
+                &lt;boolean name="call_forwarding_visibility_bool" value="false" />
+            &lt;/moto_config> </string>
+    </carrier_config>
+    <carrier_config cid="1897" name="dtac ">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <int-array name="carrier_nr_availabilities_int_array" num="2">
+            <item value="1" />
+            <item value="2" />
+        </int-array>
+    </carrier_config>
+    <carrier_config cid="1898" name="True Move">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="moto_should_restore_unknown_participant_bool" value="true" />
+        <int name="carrier_default_wfc_ims_mode_int" value="1" />
+        <int-array name="carrier_nr_availabilities_int_array" num="2">
+            <item value="1" />
+            <item value="2" />
+        </int-array>
+    </carrier_config>
+    <carrier_config cid="1917" name="eMobile">
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <carrier_config cid="1960" name="Hutchison 2G">
+        <int name="moto_dss_int" value="0" />
+    </carrier_config>
+    <carrier_config cid="1961" name="Airtel">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
+        <boolean name="enable_update_address_for_mo" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true" />
+        <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
+        <boolean name="support_video_conference_call_bool" value="true" />
+        <boolean name="vilte_data_is_metered_bool" value="false" />
+        <int name="volte_replacement_rat_int" value="3" />
+    </carrier_config>
+    <carrier_config cid="1963" name="Vodafone">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="enable_update_address_for_mo" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
+        <boolean name="vilte_data_is_metered_bool" value="false" />
+    </carrier_config>
+    <carrier_config cid="1968" name="EG Etisalat">
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <carrier_config cid="1970" name="du">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <int-array name="carrier_nr_availabilities_int_array" num="2">
+            <item value="1" />
+            <item value="2" />
+        </int-array>
+    </carrier_config>
+    <carrier_config cid="1972" name="Zain Saudi Arabia">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <int name="maxImageHeight" value="480" />
+        <int name="maxImageWidth" value="640" />
+    </carrier_config>
+    <carrier_config cid="1978" name="Smartfren">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="1982" name="TATA DOCOMO">
+        <int name="moto_dss_int" value="0" />
+    </carrier_config>
+    <carrier_config cid="1992" name="STC">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="1997" name="TrueMove H 4G LTE">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="moto_should_restore_unknown_participant_bool" value="true" />
+        <boolean name="moto_use_restore_number_for_conference" value="true" />
+        <boolean name="sim_lock_is_valid_sim_bool" value="true" />
+        <int name="carrier_default_wfc_ims_mode_int" value="1" />
+        <int-array name="carrier_nr_availabilities_int_array" num="2">
+            <item value="1" />
+            <item value="2" />
+        </int-array>
+    </carrier_config>
+    <carrier_config cid="2001" name="Vodafone">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="config_show_connection_dialog_before_reset_esim" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+        <boolean name="vilte_data_is_metered_bool" value="false" />
+    </carrier_config>
+    <carrier_config cid="2014" name="Zain Bahrain">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="2017" name="Yes 4G">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="2018" name="Reliance Jio">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <boolean name="carrier_name_override_bool" value="false" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="drop_hold_call_for_emc_sim" value="false" />
+        <boolean name="enabledMMS" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="enable_update_address_for_mo" value="false" />
+        <boolean name="hide_enable_2g_bool" value="true" />
+        <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+        <boolean name="prefer_2g_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="support_video_conference_call_bool" value="true" />
+        <boolean name="vilte_data_is_metered_bool" value="false" />
+        <boolean name="vonr_enabled_bool" value="true" />
+        <boolean name="vonr_setting_visibility_bool" value="true" />
+        <boolean name="moto_carrier_default_vonr_bool" value="true" />
+        <int-array name="carrier_nr_availabilities_int_array" num="2">
+            <item value="1" />
+            <item value="2" />
+        </int-array>
+        <int-array name="5g_nr_ssrsrp_thresholds_int_array" num="4">
+            <item value="-120" />
+            <item value="-115" />
+            <item value="-110" />
+            <item value="-105" />
+        </int-array>
+        <int-array name="lte_rsrp_thresholds_int_array" num="4">
+            <item value="-120" />
+            <item value="-115" />
+            <item value="-110" />
+            <item value="-105" />
+        </int-array>
+        <string name="carrier_name_string" />
+    </carrier_config>
+    <carrier_config cid="2038" name="unifi mobile">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="2052" name="Virgin">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <int-array name="carrier_nr_availabilities_int_array" num="2">
+            <item value="1" />
+            <item value="2" />
+        </int-array>
+    </carrier_config>
+    <carrier_config cid="2100" following="SoftBank" name="Y!mobile">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="2109" name="Rakuten Mobile">
+        <boolean name="additional_settings_call_waiting_visibility_bool" value="false" />
+        <boolean name="additional_settings_caller_id_visibility_bool" value="false" />
+        <boolean name="call_forwarding_visibility_bool" value="false" />
+        <int name="wifi.carrier_profiles_version_int" value="1" />
+        <string-array name="wifi.network_profiles_string_array" num="1">
+            <item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;WifiNetwork>&lt;SSID>0000Rakuten&lt;/SSID>&lt;Credential>&lt;SIM>&lt;EAPType>23&lt;/EAPType>&lt;/SIM>&lt;/Credential>&lt;/WifiNetwork>" />
+        </string-array>
+    </carrier_config>
+    <carrier_config cid="2237" name="China Telecom">
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="carrier_ims_setting_reset_after_sim_swap_bool" value="true" />
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_video_crs_supported_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="config_enable_video_crbt" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+        <boolean name="moto_carrier_default_vonr_bool" value="true" />
+        <boolean name="moto_convert_plus_for_ims_call_bool" value="false" />
+        <boolean name="vonr_enabled_bool" value="true" />
+        <boolean name="vonr_setting_visibility_bool" value="true" />
+        <boolean name="mtk_key_vt_downgrade_in_bad_bitrate" value="true" />
+        <boolean name="vilte_data_is_metered_bool" value="false" />
+        <int-array name="carrier_nr_availabilities_int_array" num="2">
+            <item value="1" />
+            <item value="2" />
+        </int-array>
+        <string name="5g_icon_configuration_string">connected_mmwave:5G_Plus,connected:5G,not_restricted_rrc_idle:5G</string>
+        <string name="5g_icon_display_grace_period_string">connected_mmwave,legacy,30;connected,legacy,30;connected_mmwave,not_restricted_rrc_con,30;connected,not_restricted_rrc_con,30;not_restricted_rrc_idle,not_restricted_rrc_con,30</string>
+        <string name="carrier_eri_file_name_string">eri_china-telecom.xml</string>
+        <int-array name="5g_nr_ssrsrp_thresholds_int_array" num="4">
+            <item value="-128" />
+            <item value="-121" />
+            <item value="-114" />
+            <item value="-107" />
+        </int-array>
+        <int-array name="lte_rsrp_thresholds_int_array" num="4">
+            <item value="-128" />
+            <item value="-121" />
+            <item value="-114" />
+            <item value="-107" />
+        </int-array>
+        <boolean name="moto_use_only_cdmadbm_for_cdma_signal_bar_bool" value="true" />
+        <int-array name="moto_cdma_dbm_thresholds_int_array" num="4">
+            <item value="-109" />
+            <item value="-106" />
+            <item value="-103" />
+            <item value="-96" />
+        </int-array>
+        <boolean name="moto_use_only_evdodbm_for_evdo_signal_bar_bool" value="true" />
+        <int-array name="moto_evdo_dbm_thresholds_int_array" num="4">
+            <item value="-109" />
+            <item value="-106" />
+            <item value="-103" />
+            <item value="-96" />
+        </int-array>
+        <int-array name="gsm_rssi_thresholds_int_array" num="4">
+            <item value="-111" />
+            <item value="-105" />
+            <item value="-102" />
+            <item value="-95" />
+        </int-array>
+        <string-array name="new_apn_default_value_fields_string_array" num="1">
+            <item value="type:default" />
+        </string-array>
+        <string-array name="non_roaming_operator_string_array" num="2">
+            <item value="46021" />
+            <item value="46060" />
+        </string-array>
+    </carrier_config>
+    <carrier_config cid="2378" name="Vodafone">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
+        <boolean name="vilte_data_is_metered_bool" value="false" />
+        <int name="lte_plus_threshold_bandwidth_khz_int" value="0" />
+    </carrier_config>
+    <carrier_config cid="2393" name="Vodafone">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="config_show_connection_dialog_before_reset_esim" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+        <boolean name="vilte_data_is_metered_bool" value="false" />
+    </carrier_config>
+    <carrier_config cid="2411" name="Wireless City Planning">
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <carrier_config cid="2429" name="Rakuten Mobile(MNO)">
+        <boolean name="additional_settings_call_waiting_visibility_bool" value="false" />
+        <boolean name="additional_settings_caller_id_visibility_bool" value="false" />
+        <boolean name="call_forwarding_visibility_bool" value="false" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <int name="wifi.carrier_profiles_version_int" value="1" />
+        <string-array name="wifi.network_profiles_string_array" num="1">
+            <item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;WifiNetwork>&lt;SSID>0000Rakuten&lt;/SSID>&lt;Credential>&lt;SIM>&lt;EAPType>23&lt;/EAPType>&lt;/SIM>&lt;/Credential>&lt;/WifiNetwork>" />
+        </string-array>
+        <boolean name="enabledMMS" value="true" />
+        <int name="smsToMmsTextThreshold" value="10" />
+    </carrier_config>
+    <carrier_config cid="2529" name="docomo_mvno">
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="vilte_data_is_metered_bool" value="false" />
+        <boolean name="enabledMMS" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true" />
+        <boolean name="hide_lte_plus_data_icon_bool" value="false" />
+        <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
+        <boolean name="use_call_forwarding_ussd_bool" value="true" />
+        <int name="volte_replacement_rat_int" value="3" />
+        <string-array name="ims_reasoninfo_mapping_string_array" num="1">
+            <item value="332||510" />
+        </string-array>
+        <string-array name="missed_incoming_call_sms_originator_string_array" num="2">
+            <item value="DoCoMo SMS" />
+            <item value="DoCoMo" />
+        </string-array>
+        <string-array name="missed_incoming_call_sms_pattern_string_array" num="5">
+            <item value="^(?&lt;month>0[1-9]|1[012])\\/(?&lt;day>0[1-9]|1[0-9]|2[0-9]|3[0-1]) (?&lt;hour>[0-1][0-9]|2[0-3]):(?&lt;minute>[0-5][0-9])\\s*(?&lt;callerId>[0-9]+)\\s*$" />
+            <item value="^(?&lt;month>0[1-9]|1[012])\\/(?&lt;day>0[1-9]|1[0-9]|2[0-9]|3[0-1]) (?&lt;hour>[0-1][0-9]|2[0-3]):(?&lt;minute>[0-5][0-9])\\s*[非通知設定|公衆電話|通知不可能]\\s*$" />
+            <item value="^(?&lt;month>0[1-9]|1[012])\\/(?&lt;day>0[1-9]|1[0-9]|2[0-9]|3[0-1]) (?&lt;hour>[0-1][0-9]|2[0-3]):(?&lt;minute>[0-5][0-9]) ﾃﾚﾋﾞ電話\\s*(?&lt;callerId>[0-9]+)\\s*$" />
+            <item value="^(?&lt;month>0[1-9]|1[012])\\/(?&lt;day>0[1-9]|1[0-9]|2[0-9]|3[0-1]) (?&lt;hour>[0-1][0-9]|2[0-3]):(?&lt;minute>[0-5][0-9]) ﾃﾚﾋﾞ電話\\s*[非通知設定|公衆電話|通知不可能]\\s*$" />
+            <item value="^海外 着信通知（日本時間）\\s*(?&lt;month>0[1-9]|1[012])\\/(?&lt;day>0[1-9]|1[0-9]|2[0-9]|3[0-1]) (?&lt;hour>[0-1][0-9]|2[0-3]):(?&lt;minute>[0-5][0-9])\\s*(?&lt;callerId>[0-9]+)\\s*$" />
+        </string-array>
+        <string-array name="carrier_additional_cbs_channels_strings" num="1">
+            <item value="0xA001-0xA002,0xA004-0xA3FF:emergency=true,type=other" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="204" mnc="04" spn="HOT MOBILE">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="enabledMMS" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <boolean name="smsUsesSimpleCharactersOnly" value="false" />
+        <int name="carrier_default_wfc_ims_mode_int" value="1" />
+        <int name="recipientLimit" value="20" />
+        <int name="smsToMmsTextThreshold" value="3" />
+    </carrier_config>
+    <carrier_config mcc="204" mnc="04" spn="中国电信">
+        <boolean name="enabledMMS" value="false" />
+    </carrier_config>
+    <carrier_config gid1="0A" mcc="525" mnc="05">
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+        <int name="wfc_spn_format_idx_int" value="1" />
+        <int name="wfc_flight_mode_spn_format_idx_int" value="1" />
+    </carrier_config>
+</carrier_config_list>
